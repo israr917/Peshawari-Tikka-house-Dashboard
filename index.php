@@ -62,19 +62,19 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="order.php">
                 <span data-feather="users"></span>
                 Orders
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="managecustomer.php">
                 <span data-feather="bar-chart-2"></span>
                 Manage Customers
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="managesuppliers.php">
                 <span data-feather="layers"></span>
                 Suppliers
               </a>
@@ -146,11 +146,21 @@
 
         </p>
         
+
+        
+
+  </div>
+
       </div>
     </div>
+
+    
     </div>
   </div>
 
+
+
+  
 
 
 

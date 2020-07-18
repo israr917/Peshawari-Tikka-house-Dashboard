@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="./js/">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="legend.css">
-    <link href="sidebar.css" rel="stylesheet">
+    <link  rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="tablegrid.css">
 </head>
 
 <body>
    
-
 
   <!-- Custom styles for this template -->
   
@@ -60,7 +59,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="order.php">
+              <a class="nav-link" href="#">
                 <span data-feather="users"></span>
                 Orders
               </a>
@@ -147,11 +146,11 @@
 			<div class="table-title">
 				<div class="row">
 					<div class="col-sm-6">
-						<h2>Manage <b>Inventory</b></h2>
+						<h2>Manage <b>Orders</b></h2>
 					</div>
 					<div class="col-sm-6">
-						<a href="#addInventoryModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Add Inventory</span></a>
-						<a href="#deleteEmployeeModal" data-toggle="modal"> <span></span></a>						
+						<a href="#addOrderModal" data-toggle="modal"> 
+						<a href="#deleteOrderModal" data-toggle="modal"> <span></span></a>						
 					</div>
 				</div>
 			</div>
@@ -188,8 +187,8 @@
 						<td>12</td>
 						<td>A</td>
 						<td>
-							<a href="#editInventoryModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteOrderModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>
 					<tr>
@@ -206,8 +205,8 @@
             <td>12</td>
 						<td>A</td>
 						<td>
-							<a href="#editInventoryModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteOrderModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>
 					<tr>
@@ -224,8 +223,8 @@
             <td>12</td>
 						<td>A</td>
 						<td>
-							<a href="#editInventoryModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteOrderModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>
 					<tr>
@@ -242,8 +241,8 @@
             <td>12</td>
 						<td>A</td>
 						<td>
-							<a href="#editInventoryModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteOrderModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr>					
 					<tr>
@@ -260,8 +259,8 @@
             <td>12</td>
 						<td>A</td>
 						<td>
-							<a href="#editInventoryModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteOrderModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
 						</td>
 					</tr> 
 				</tbody>
@@ -282,12 +281,12 @@
 	</div>        
 </div>
 <!-- Edit Modal HTML -->
-<div id="addInventoryModal" class="modal fade">
+<div id="addOrderModal" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<form>
 				<div class="modal-header">						
-					<h4 class="modal-title">Add Inventory</h4>
+					<h4 class="modal-title"></h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					
@@ -329,12 +328,12 @@
 	</div>
 </div>
 <!-- Edit Modal HTML -->
-<div id="editInventoryModal" class="modal fade">
+<div id="editEmployeeModal" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<form>
 				<div class="modal-header">						
-					<h4 class="modal-title">Edit Inventory</h4>
+					<h4 class="modal-title">Edit Order</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					
@@ -374,12 +373,12 @@
 	</div>
 </div>
 <!-- Delete Modal HTML -->
-<div id="deleteEmployeeModal" class="modal fade">
+<div id="deleteOrderModal" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<form>
 				<div class="modal-header">						
-					<h4 class="modal-title">Delete Inventory</h4>
+					<h4 class="modal-title">Delete Order</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">					
@@ -395,9 +394,6 @@
 	</div>
 </div>
       
-
-  
-
 
 
 
